@@ -1,7 +1,7 @@
 # Haven Axiom Kit
 
-Run [Axiom](https://modrinth.com/mod/axiom), the creative world editor, in a copy of
-**Create Ultimate Selection 2 12.1.0** for planning builds offline on a copy of the Haven world.
+Run [Axiom](https://modrinth.com/mod/axiom), the creative world editor, in a copy of the
+**Haven** Prism instance, for planning builds offline on a copy of the Haven world.
 
 Axiom is a Fabric mod. This kit holds the bridge that runs Fabric mods on NeoForge:
 
@@ -14,26 +14,23 @@ Axiom is a Fabric mod. This kit holds the bridge that runs Fabric mods on NeoFor
 Axiom itself is not in the kit: its license does not allow sharing it. Download it from Modrinth.
 
 These versions run on the pack's own NeoForge (21.1.243). Newer Forgified Fabric API
-versions need a newer NeoForge.
+versions need a newer NeoForge. Tested 2026-10-15 with Haven 12.1.0-haven.39 (Sodium 0.8.13): Axiom 6.1.3 loads
+and starts.
 
 ## Install
 
 1. Download `haven-axiom-kit-1.0.zip` from [Releases](../../releases/latest) and unzip it.
 2. Download **Axiom 6.1.3 for Minecraft 1.21.1** (Fabric) from
    [Modrinth](https://modrinth.com/mod/axiom/versions?g=1.21.1&l=fabric).
-3. Make a copy of the pack, so your main profile stays as the server expects:
-   - **CurseForge (Windows, macOS):** right-click the Create Ultimate Selection 2 profile
-     → **Clone as...** → keep the Minecraft version → **Create**.
-   - **Prism Launcher (Linux):** right-click the instance → **Copy** → name it, for example
-     "Haven Planning".
-4. Open the copy's `mods` folder:
-   - **CurseForge:** right-click the clone → **Open Folder** → `mods`.
-   - **Prism Launcher:** right-click the copy → **Folder** → `minecraft` → `mods`.
+3. In Prism, right-click the Haven instance → **Copy** → name it, for example "Haven Planning".
+   Your main instance stays as the server expects.
+4. Right-click the copy → **Folder** → `minecraft` → `mods`.
 5. Put the three jars from the kit's `mods` folder and the Axiom jar in there.
 6. Launch the copy. The first start takes longer while Connector prepares the Fabric mods.
+   The copy keeps updating with the pack; the kit jars and Axiom stay in its `mods` folder.
 
-To get the world, log in to the [Haven map](https://map.minecraft.thedragon.dev) and use
-**Download world**.
+To get the world, log in to the [Haven map](https://map.minecraft.thedragon.dev), use
+**Download world**, and unzip it into the copy's `minecraft/saves` folder.
 
 ## Use
 
@@ -42,7 +39,7 @@ To get the world, log in to the [Haven map](https://map.minecraft.thedragon.dev)
   under Options → Controls → Key Binds → Axiom.
 - [Axiom documentation](https://axiomdocs.moulberry.com)
 
-Play on Haven with your main profile, not with this copy. The server does not run Axiom, so the
+Play on Haven with your main Haven instance, not with this copy. The server does not run Axiom, so the
 editor is off there. To move a build to the server, save it with Create's **Schematic and Quill**
 and print it with a **Schematicannon**; see the
 [Haven Codex](https://claude.ai/artifact/QG2xPPxSAM2BQiovWVoGiF#planning).
