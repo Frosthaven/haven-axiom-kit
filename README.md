@@ -1,5 +1,10 @@
 # Haven Axiom Kit
 
+> **No longer needed for Haven players.** Haven now has an **Offline Editor (Axiom)** option: press Play, click
+> **Optional mods...**, tick it. It installs Axiom and this bridge (newer versions) by itself and keeps them updated.
+> See Creative Planning in the [Haven Codex](https://claude.ai/artifact/QG2xPPxSAM2BQiovWVoGiF#planning). This kit
+> stays for reference.
+
 Run [Axiom](https://modrinth.com/mod/axiom), the creative world editor, in a copy of the
 **Haven** Prism instance, for planning builds offline on a copy of the Haven world.
 
